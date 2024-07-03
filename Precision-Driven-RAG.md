@@ -23,4 +23,5 @@ Building on the previous steps, inspired by HyDE (https://docs.haystack.deepset.
 ### STEP #6 - Enriched Answer Generation
 In the last step, the Large Language Model (LLM) generates an answer coherent with the answer obtained from Step #4. This answer is then expanded using the chunks and their associated metadata from Step #5. The metadata-enriched chunks provide additional context and details, allowing the LLM to respond comprehensively.
 
+### Conclusion
 This approach/pipeline ensures that the final answer is accurately synthetic, rich in context, and well-supported by relevant data. The resulting response is a finely tuned synthesis of the most pertinent information, providing the user with a detailed and reliable answer to their query without hallucinations.
