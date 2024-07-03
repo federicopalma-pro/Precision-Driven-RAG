@@ -9,7 +9,7 @@ Documents are split into semantically meaningful chunks before being inserted in
 ### STEP #2 - RAPTOR: Advanced Retrieval with Recursive Summaries
 According to the RAPTOR technique (https://arxiv.org/html/2401.18059v1), all semantic chunks are clustered and progressively summarized. RAPTOR enhances traditional retrieval-augmented models by recursively embedding, clustering, and summarizing chunks of text. This approach constructs a hierarchical tree with different levels of summarization from the bottom up. During inference, the RAPTOR model retrieves from this tree, integrating information across lengthy documents at various levels of abstraction. This method significantly improves retrieval, particularly for complex, multi-step reasoning tasks. 
 
-## STEP #3 - Metadata 
+### STEP #3 - Metadata 
 Each semantic chunk is backed by metadata that improves comprehension and accuracy in finding information. This metadata encompasses details like the document title, author, publication date, section headers, and keywords, offering context that facilitates the RAG process.
 
 After completing these three steps, two chunk collections are saved in the vector database, and the system is ready to answer the user's question.
