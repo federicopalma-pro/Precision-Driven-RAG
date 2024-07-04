@@ -7,6 +7,7 @@ This notebook demonstrates a Precision-Driven RAG implementation using the class
 Getting Started
 To begin your RAG experience:
 
+- write your OPENAI_API_KEY into the .env file
 - Open the RAG.ipynb notebook in your Jupyter environment.
 - Execute all cells in the notebook sequentially.
 - Navigate to the "User's Query" section.
